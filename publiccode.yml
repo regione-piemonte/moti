@@ -1,0 +1,90 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+categories:
+  - erp
+dependsOn:
+  open:
+    - name: PostgreSQL
+      optional: false
+      version: 9.6.10
+      versionMax: ''
+      versionMin: ''
+    - name: Wildfly
+      optional: false
+      version: 17.0.1
+      versionMax: ''
+      versionMin: ''
+    - name: Apache httpd
+      optional: false
+      version: '2.4'
+      versionMax: ''
+      versionMin: ''
+description:
+  it:
+    features:
+      - Inserimento interventi
+      - Visualizzazione dettaglio interventi
+      - Modifica e cancellazione interventi
+      - Ricerca di uno o più interventi sulla base di filtri
+      - Esportazione interventi (elenco e dati di dettaglio)
+    genericName: Monitoraggio Interventi
+    longDescription: |
+      Il software applicativo “Monitoraggio Territoriale Interventi” – MoTI
+      consente la gestione e il monitoraggio di interventi di interesse
+      strategico inerenti infrastrutture di trasporto e mobilità quali strade,
+      ferrovie, aeroporti e così via. In particolare, è stato progettato come
+      strumento di semplice utilizzo, a scala regionale, per favorire il
+      monitoraggio dell’attuazione dei progetti più importanti inerenti la
+      mobilità ed il trasporto sul territorio regionale e il supporto alle
+      decisioni relative alla programmazione della spesa per le attività di
+      realizzazione delle infrastrutture di interesse.
+    shortDescription: |-
+      MoTI consente la gestione e il monitoraggio di interventi di interesse
+      strategico: infrastrutture di trasporto e mobilità
+      (strade,ferrovie,aeroporti).
+developmentStatus: stable
+intendedAudience:
+  countries:
+    - it
+  scope:
+    - emergency-services
+it:
+  conforme:
+    gdpr: true
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: true
+    modelloInteroperabilita: false
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+  riuso:
+    codiceIPA: r_piemon
+landingURL: 'https://github.com/regione-piemonte/moti.git'
+legal:
+  authorsFile: |-
+    https://raw.githubusercontent.com/regione-piemonte/moti/master/Copyrights.txt
+  license: EUPL-1.2
+  mainCopyrightOwner: Regione Piemonte
+  repoOwner: Regione PIemonte
+localisation:
+  availableLanguages:
+    - it
+  localisationReady: false
+maintenance:
+  contacts:
+    - email: filiberto.morrone@csi.it
+      name: Filiberto Morrone
+  type: internal
+name: OPERE PUBBLICHE OPEN
+platforms:
+  - web
+releaseDate: '2021-10-05'
+softwareType: standalone/web
+softwareVersion: '1.0'
+url: 'https://github.com/regione-piemonte/moti'
