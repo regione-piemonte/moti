@@ -31,7 +31,7 @@ description:
       - Ricerca di uno o più interventi sulla base di filtri
       - Esportazione interventi (elenco e dati di dettaglio)
     genericName: Monitoraggio Interventi
-    longDescription: |
+    longDescription: >
       Il software applicativo “Monitoraggio Territoriale Interventi” – MoTI
       consente la gestione e il monitoraggio di interventi di interesse
       strategico inerenti infrastrutture di trasporto e mobilità quali strade,
@@ -41,7 +41,7 @@ description:
       mobilità ed il trasporto sul territorio regionale e il supporto alle
       decisioni relative alla programmazione della spesa per le attività di
       realizzazione delle infrastrutture di interesse.
-    shortDescription: |-
+    shortDescription: >
       MoTI consente la gestione e il monitoraggio di interventi di interesse
       strategico: infrastrutture di trasporto e mobilità
       (strade,ferrovie,aeroporti).
@@ -67,8 +67,7 @@ it:
     codiceIPA: r_piemon
 landingURL: 'https://github.com/regione-piemonte/moti.git'
 legal:
-  authorsFile: |-
-    https://raw.githubusercontent.com/regione-piemonte/moti/master/Copyrights.txt
+  authorsFile: 'Copyrights.txt'
   license: EUPL-1.2
   mainCopyrightOwner: Regione Piemonte
   repoOwner: Regione PIemonte
