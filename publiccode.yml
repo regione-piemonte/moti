@@ -48,7 +48,7 @@ intendedAudience:
   countries:
     - it
   scope:
-    - emergency-services
+    - transportation
 it:
   conforme:
     gdpr: true
